@@ -11,7 +11,7 @@ def cria_link_html(url):
 
 
 # Lista exportada diretamente do firefox
-link_list = open('my_file.txt')
+link_list = open('my_linkx.txt')
 the_html = open('my_page.html', 'w+')
 
 for line in link_list:
