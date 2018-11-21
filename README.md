@@ -8,10 +8,12 @@ Esse script resolve esse problema de forma muito simples.
 
 ## Como utilizar
 
-Abra o gerenciador de Bookmarks do Firefox, selecione os links que deseja exportar, copie e cole num arquivo texto.
+Abra o gerenciador de Bookmarks do Firefox, selecione os links que deseja exportar, copie e cole num arquivo texto. Por exemplo, `my_links.txt`.
 
-Invoke:
+Rodar:
+
 ```bash
-./convert.py <input> <output>
+./convert.py my_links.txt my_page.html
 ```
 
+Há um exemplo de um arquivo de exportação neste diretório com o nome `my_links.txt`
