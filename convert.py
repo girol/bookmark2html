@@ -7,8 +7,8 @@ def remove_quebra_de_linha(linha):
 # Cria um link HTML com a tag <a> e target blank
 
 def cria_link_html(url):
-    clean_url = url.strip() 
-    return '<a href="{u}">{u}</a>'.format(u = clean_url)
+    clean_url = url.strip()
+    return '<a href="{u}" target="_blank">{u}</a>'.format(u = clean_url)
 
 
 def do_it(input_file,output_file):
